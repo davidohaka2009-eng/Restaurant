@@ -1,51 +1,377 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html>
-   <head>
-    <style>
-        .hotel{
-         width: 100%;
-          height: 600px;
-          background-image: url(images/Screenshot\ 2026-10-02\ 120443.png);
-           background-size: cover;
-          background-repeat:no-repeat ;
-          background-position: center;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+    <head>
+       <style>
+        .me {
+             width: 100%;
+            height: 600px;
+            background-image: url(images/Screenshot\ 2026-10-02\ 120443.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+             display: flex;
+            justify-content:flex-start;
+            align-items:center;
         }
-        .hotel1a{
-          width: 100%;
-          height: 600px;
-          background-color: rgba(0, 0, 0, 0.737);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          color: white;
-          flex-direction: column;
+         @media (max-width:600px) {
+        .me {height: 120vh;
         }
-        .bold{
-          font-size: 90px;
+    }
+        .she{
+            width: 40%;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.566);
+            margin-left: 85px;
+            margin-top: 200px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
         }
-        .block{
-           width: 10%;
-          height: 40px;
-          background-color: white;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
+         @media (max-width:600px) {
+        .she {  font: size 15px; 
+            width: 50%;
+            height: 330px;
+            padding: 20px;
+            
         }
-        .block a{
-          text-decoration: none;
+    }
+        .he {
+            color: white;
+            font-size: 70px;
+            margin-top:40px;
+            margin-left: 30px; }
+             @media (max-width:600px) {
+        .he { font-size: 15px;
+            
         }
-        .block-button{
-          color: black;
+    }
+
+        .her{
+              color: white;
+            font-size: 25px;
+            margin-top:40px;
+            margin-left: 35px; }
+             @media (max-width:600px) {
+           .her { 
+            font-size: 15px;  }
+             }
+         .am {
+            width: 30%;
+            height: 55px;
+            background-color: red;
+            color: white;
+            margin-top: 40PX;
+             display: flex;
+            justify-content:center;
+            align-items:center;
+             margin-left: 35px; }
+             @media (max-width:600px) {
+        .am {}
+             }
+
+         
+
+         .man{
+             width: 100%;
+            height: 650px;
+            background-image: url(images/Screenshot\ 2026-09-01\ 101119.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+             display: flex;
+            justify-content:center;
+            align-items:center;
+            height: 120vh;
+        }   
+          @media (max-width:600px) {
+          .man {}
+             }
+         .dog {
+            width: 70%;
+            height: 500px;
+            background-color: rgba(0, 0, 0, 0.429);
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+         }
+           @media (max-width:600px) {
+        .dog { width: 90%;
+            
         }
+             }
+         .have {
+            color: white;
+            font-size: 50px;}
+              @media (max-width:600px) {
+        .have { font-size: 40px;}
+             }
+         .has {
+             color: white;
+            font-size: 18px;
+         }
+           @media (max-width:600px) {
+        .has {
+            
+        }
+             }
 
 
 
-        .room{
+
+         .matter {
+            width: 100%;
+            height: 550px;
+            background-color: white;
+             display: flex;
+            justify-content:space-around;
+            align-items: center;
+             flex-direction: column;
+             height: 120vh;
+         }
+         .cat {
+            width: 50%;
+            height: 50px;
+            background-color: transparent;
+            color: red;
+            font-size: 40px;
+            display: flex;
+            justify-content:center;
+            align-items: center;}
+            @media (max-width:600px) {
+        .cat {
+            font-size: 45px;
+            width: 60%;
+        }
+             }
+         
+         .mat {
+             width: 100%;
+            height: 500px;
+            background-color: transparent;
+         display: flex;
+         justify-content: space-around;
+         align-items:center ;
+        }
+         @media (max-width:600px) {
+        .mat {
+            flex-wrap: wrap;
+        }
+             }
+        
+        
+         .hand {
+            width: 300px;
+            height: 500px ;
+             background-image: url(images/Screenshot\ 2026-09-01\ 122628.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+             display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+         }
+          @media (max-width:600px) {
+        .hand { 
+            width: 250px;
+            height: 100px ;
+        }
+             }
+         .ant {
+            width: 300px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.571);
+             display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         @media (max-width:600px) {
+        .ant { height: 50px;}  }
+          .go {
+           width: 300px;
+           height: 500px ;
+            background-image: url(images/Screenshot\ 2026-09-01\ 122819.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+             display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+          }
+           @media (max-width:600px) {
+        .go { 
+            width: 250px;
+            height: 100px ; 
+        }
+        }
+        .another {
+            width: 300px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.571);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         @media (max-width:600px) {
+        .another {height: 50px; } }
+          .let {
+            width: 300px;
+            height: 500px ;
+             background-image: url(images/Screenshot\ 2026-09-01\ 122949.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+             display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+          }
+           @media (max-width:600px) {
+        .let { 
+            width: 250px;
+            height: 100px ;
+        }   }
+        .and {
+            width: 300px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.571);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         @media (max-width:600px) {
+        .and {height: 50px; } }
+          .hat {
+            width: 300px;
+            height: 500px ;
+             background-image: url(images/Screenshot\ 2026-08-31\ 235307.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            color: white;
+          }
+
+           @media (max-width:600px) {
+        .hat { 
+            width: 250px;
+            height: 100px ;
+        }    }
+        .achi {
+            width: 300px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.571);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         @media (max-width:600px) {
+        .achi {height: 50px; }  }
+
+
+
+
+           .cap {
+           width: 100%;
+      height: 350px;
+        background-color:red;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        
+      
+    }
+    @media (max-width:728px) {
+        .cap {
+            flex-direction: column; 
+            height: auto;
+        }  
+    }
+    .hang {
+       width: 17%;
+      height: 300px;
+        background-color:transparent;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+       .you {
+         width: 17%;
+      height: 300px;
+        background-color:transparent;
+         display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .put {
+         width: 17%;
+      height: 300px;
+        background-color:transparent;
+         display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+     .need{
+            color: white;
+            font-size: 20px;
+            
+
+        }
+    .had {
+             color: white;
+            font-size: 12px;
+            margin-bottom: 50px;
+        }
+     .van {
+             color: white;
+            font-size: 20px;
+        }
+    .don {
+         color: white;
+            font-size: 12px;
+            margin-bottom: 150px;
+    }   
+    .rat {
+         color: white;
+            font-size: 20px;
+            margin-top:50px ;
+            margin-right: 85px;
+            
+            
+    }
+      @media (max-width:600px) {
+        .rat { font-size: 15px;
+        }
+      }
+    .eat {
+         color: white;
+            font-size: 12px;
+            text-align: left;
+
+    }
+    @media (max-width:600px) {
+        .eat { font-size: 10px;
+        }
+      }
+
+
+
+
+      .room{
          width: 100%;
           height: 600px;
           background-color: whitesmoke;
@@ -130,277 +456,89 @@
           height: 30px;
         }
 
-
-
-        .happy{
-          width: 100%;
-          height: 450px;
-          background-color: white;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          text-align: center;
-        }
-         .happy1a{
-           width: 30%;
-          height: 450px;
-          display: flex;
-          justify-content:center ;
-          align-items: flex-start;
-          text-align: center;
-         }
-        .happy1ao{
-         width: 90%;
-          height: 400px;
-          background-image: url(images/Screenshot\ 2026-08-31\ 235307.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-        }
-        .happy1b{
-        width: 30%;
-          height: 400px;
-          background-color: transparent;
-          display: flex;
-          justify-content: center;
-          align-items:center;
-          text-align: center;
-          font-size: 60px;
-          flex-direction: column;
-        }
-        .happy1c{
-         width: 30%;
-          height: 450px;
-           display: flex;
-          justify-content: center;
-          align-items:center;
-          text-align: center;
-          background-color: black;
-          background-image: url(images/Screenshot\ 2026-08-31\ 235307.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-        }
-        .happy1bi{
-          font-size: 20px;
-        }
-        .happy1bj{
-         width: 35%;
-          height: 30px; 
-          font-size: 15px;
-          display: flex;
-          justify-content: center;
-          align-items:center;
-          text-align: center;
-        }
-        .a{
-          text-decoration: none;
-        }
-
-
-        .because{
-          width: 100%;
-          height: 500px;
-          background-color: whitesmoke;
-          display: flex;
-          justify-content: flex-start;
-          align-items: flex-start;
-          text-align: center;
-          flex-direction: column;
-        }
-        .because2{
-          font-size: 96px;
-          color: black;
-        }
-        .because3{
-          width: 100%;
-          height: 470px;
-          display: flex;
-          justify-content: space-around;
-          align-items:center;
-          text-align: center;
-        }
-        .because3ao{
-          width: 8%;
-          height: 470px;
-           display: flex;
-          justify-content: center;
-          align-items:flex-end;
-          text-align: center;
-        }
-        .because3a{
-          width: 100%;
-          height: 470px;
-          background-image: url(images/Screenshot\ 2026-09-18\ 102139.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;}
-          .because3b{
-         width: 8%;
-          height: 470px;
-           background-image: url(images/Screenshot\ 2026-09-18\ 101253.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;}
-          .because3c{
-          width: 64%;
-          height: 470px;
-          background-image: url(images/Screenshot\ 2026-09-18\ 101549.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-        }
-         .because3d{
-          width: 8%;
-          height: 470px;
-          background-image: url(images/Screenshot\ 2026-09-18\ 101414.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-         }
-         .because3e{
-          width: 8%;
-          height: 470px;
-          background-image: url(images/Screenshot\ 2026-09-18\ 101150.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-         }
-         .direct{
-          width: 100%;
-          height: 350px;
-          background-color: bisque;
-          display: flex;
-          justify-content: center;
-          align-items:center;
-          text-align: center;
-          flex-direction: column;
-         }
-         .direct1a{
-          font-size: 60px;
-         }
-         .direct1b{
-          width: 40%;
-          height: 50px;
-          font-size:18px;
-         }
-         .direct1c{
-           width: 12%;
-          height: 50px;
-          background-color: black;
-          display: flex;
-          justify-content: center;
-          align-items:center;
-         }
-         .direct1c-button{
-          color: white;
-          text-decoration: none;
-         }
-
-         .be{
-          width: 100%;
-          height: 600px;
-          background-color:green;
-          display: flex;
-          justify-content: space-between;
-          align-items:center;
-          padding: 20px 0px;
-         }
-         .be2{
-          width: 58%;
-          height: 600px;
-          display: flex;
-          justify-content: flex-start;
-          align-items:flex-start;
-          font-size: 70px;
-          color: white;
-          flex-direction: column;
-          margin-left: 10px;
-         }
-         .be2a{
-          font-size: 19px;
-         }
-          .be2b{
-          font-size:17px ;
-         }
-         .be3{
-          width: 40%;
-          height: 600px;
-          background-color:transparent;
-           display: flex;
-          justify-content:space-around;
-          align-items:self-start;
-          
-         }
-         .be3a{
-          width: 19%;
-          height: 400px;
-          display: flex;
-          justify-content: flex-start;
-          align-items:center;
-          text-align: left;
-          flex-direction: column;
-          font-size: 18px;
-          margin-top: 30px;
-          color: white;
-         }
-         .be3b{
-          width: 24%;
-          height: 400px;
-          display: flex;
-          justify-content: flex-start;
-          align-items:center;
-          text-align: left;
-          flex-direction: column;
-          font-size: 18px;
-           margin-top: 30px;
-           color: white;
-         }
-         .be3c{
-          width: 25%;
-          height: 400px;
-          display: flex;
-          justify-content: flex-start;
-          align-items:center;
-          text-align: left;
-          flex-direction: column;
-          font-size: 18px;
-           margin-top: 30px;
-           color: white;
-         }
-        .input-box {
-            position: relative;
-            width: 550px;
-            background-color:transparent;
-            padding: 20px 30px 30px 0px;
-            
-        }
-        .input-box span {
-            position:absolute;
-            left: 500px;
-            top: 50%;
-            transform: translateY(-50%);
-          
-        }
-        .input-box input {
-            width: 100%;
-            padding: 10px 10px 10px 35px ;
-            box-sizing: border-box;
-        }
-        .input-box1{
-          color: black;
-        }
-    </style>
-   </head>
-   <body>
-      <div class="hotel">
-        <div class="hotel1a">
-            <H1><b class="bold">RESTAURANT <i>not</i></b></H1>
-            Once a publishing house from the 1950s, Stamda is a<br>
-            reflection of Tbilisi's thriving creative climate.<br><br>
-            <div class="block"><a href="" class="block-button">Book now</a></div>
+       </style>
+    </head>
+    <body>
+        <div class="me">
+            <div class="she">
+                <span class="he"><b>Restaurant</b></span>
+                <t class="her">Take a break from hustles and bustle of the 
+                    town and enjoy a luxurious experience. Get
+                    premium access to experience comfort at our
+                    restaurant in Lekki, Alausa and Surulere.
+                </t> 
+                 <div class="am"><a>VISIT US</a></div>       
+            </div>
         </div>
-      </div>
+
+
+
+        <div class="man">
+            <div class="dog">
+               <span class="have"> <u>About Us</u></span>
+           <h5 class="has">Experience Quality Food and Exceptional Service
+            at The Place! Founded in 2006 in the heart of lkeja GRA,The Place has
+            grown into a renowned brand, celebrated for its delicious and
+            consistently high-quality Nigerian and continental cuisine. ourpassion
+            for great food and exceptional service ensures that every visit is a memorable
+            experience. Beyond dining,we have expanded to offer a unique blend of hospitality
+            and entertainment, with select locations featuring hotels,nightclubs, and stylish
+            bar/lounge areas. Whether you're stopping by for a flavourfulmeal, a vibrant night 
+            out,or a relexing stay, The Place is your ultimate destination for great food,
+            comfort, and unforgettable experiences.
+           </h5>
+            </div>
+        </div>
+           
+
+
+
+        <div class="matter">
+            <div class="cat">
+            <u>Our Businesses</u>
+            </div>
+            <div class="mat"> 
+                <div class="hand">
+                  <div class="ant">FOOD</div>
+                </div>
+                <div class="go">
+                  <div class="another">DRINKS</div>
+                </div>
+                <div class="let">
+                  <div class="and"> CLUB HOUSE</div>
+                </div>
+                <div class="hat">
+                    <div class="achi">HOTEL</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="cap">
+            <div class="hang">
+              <span class="need"><b>Restaurant</b></span> 
+                <h4 class="had">Restaurant<br><br>Bar & lounge
+                <br><br>Hotel<br><br>careers<br><br>HR Portal
+                </h4>
+
+            </div>
+            <div class="put">
+               <span class="van"><b>Services</b></span> 
+                <h4 class="don">Loyalty</h4>  
+            </div>
+            <div class="you">
+                 <span class="rat"><b>Contact Us</b></span> 
+                <h4 class="eat">📱 08182862824<br><br>📱 08183742775
+                <br><br>✉️ customerservice@theplace.com.ng<br><br>
+                😁😆😀🫡
+                </h4>
+            </div>
+        </div>
+
+
+
 
       <div class="room">
         <div class="room2"><b>ROOM</b> <i>by</i> <b>ALONG</b> </div>
@@ -415,80 +553,5 @@
           <div class="room4c"><b>Terrace Room</b></div>
         </div>
       </div>
-
-      <div class="happy">
-        <div class="happy1a"><div class="happy1ao"></div></div>
-        <div class="happy1b">and<br><b>HAPPEN</b>
-          <div class="happy1bi">stamb <i>is</i> everything <br>
-          at once,dynamic and fascinating. </div>
-        <div class="happy1bj"><a href="">Explore Spaces→</a></div>
-        </div>
-        <div class="happy1c"></div>
-      </div>
-
-
-      <div class="">
-        <div class="because2"><b>BECAUSE</b> <i>all</i> <b>CITY</b> </div>
-        <div class="because3">
-          <div class="because3ao"><div class="because3a"></div></div>
-          <div class="because3b"></div>
-          <div class="because3c"></div>
-          <div class="because3d"></div>
-          <div class="because3e"></div>
-
-        </div>
-      </div>
-
-
-      <div class="direct">
-        <div class="direct1a"><b>DIRECT BOOKING</b></div>
-        <div class="direct1b">Reserve direct with us for special offers 
-          and access to preferred rates.Enjoy an easy, personalized
-          experience.
-        </div>
-        <div class="direct1c"><a href="" class="direct1c-button">Book now</a></div>
-      </div>
-
-
-      <div class="be">
-        <div class="be2"><b>BE PART OF THE <br> STORY <br></b>
-        <div class="be2a">NEWSLETTER <br>Sign up for our mailing list
-        and receive special offers, insider updates, and a glimpse into
-      our world of design, culture, and hospitality.<br>
-       <form>
-            <div class="input-box">
-              <span class="input-box1"><b>JOIN</b></span>
-              <input type="text">
-            </div>
-            <input type="checkbox"id="checkbox">
-            <label for="click ">I have read 
-              and agree to the <u> Newsletter Subscription policy.</u>
-            (required)</label><br>
-          
-          <input type="checkbox" id="checkbox">
-          <label for="click">I agree to receive Newsletters 
-            affilliated companies.(optional)
-          </label><br>
-
-          </form></div>
-            <div class="be2b">you can withdraw your consent and unsubscribe
-              at any time using the unsubscribe tool<br>integrated in the 
-              newsletter.
-            </div>
-        </div>
-        <div class="be3">
-          <div class="be3a"><b>Home<br><br><br>
-            Stay<br><br><br>Spaces<br><br><br>
-            Eat</b>
-
-          </div>
-          <div class="be3b">special Offer<b><br><br>
-            Work with us<br><br><br>Blog</div></b>
-
-          <div class="be3c"><b>Contact<br><br>
-            privacy policy<br><br><br>Marketing</b>
-        </div>
-      </div>
-   </body>
+    </body>
 </html>
-
